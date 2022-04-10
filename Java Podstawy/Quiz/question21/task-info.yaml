@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Błąd po uruchomieniu.
+  is_correct: false
+- text: 11125
+  is_correct: false
+- text: 675
+  is_correct: true
+- text: 111213
+  is_correct: false
+- text: Błąd kompilacji.
+  is_correct: false
+- text: 678
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public class Main {
+        public static void main(String[] args) {
+
+        }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 10 Apr 2022 07:55:39 UTC
+record: -1
+selected_options:
+- 2

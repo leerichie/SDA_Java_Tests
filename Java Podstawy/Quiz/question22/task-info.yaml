@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Prymitywne.
+  is_correct: true
+- text: Enumy.
+  is_correct: false
+- text: Kolekcje.
+  is_correct: false
+- text: Obiekty.
+  is_correct: false
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    public class Main {
+        public static void main(String[] args) {
+
+        }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 10 Apr 2022 07:56:10 UTC
+record: -1
+selected_options:
+- 0
